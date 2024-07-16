@@ -1,6 +1,7 @@
 
 /* GENERAL */
 body {  }
+body, button, input, select, textarea, .widget li, td, p, div.textwidget {font-size: 15px; line-height: 1.5; }
 main h1, main h2, main h3, main h4 { color:#343953; }
 main p, main em, main table, main ul, main li  { color:#333; font-weight:400; text-align: left;  }
 main h1 { text-align:center; margin-top: 3rem; letter-spacing: normal; font-size: 40px; font-weight: 700;  }
@@ -77,6 +78,14 @@ body:not(.overlay-header) .primary-menu li.request-button:hover {background:#343
 .woocommerce .woocommerce-breadcrumb {display: none; }
 .woocommerce .action-buttons-row {display:none;}
 .reset_variations, .variations .label {display: none; }
+
+/* CONTACT */
+.single-contact .banner-row {min-height:600px;}
+.single-contact .banner-row h3 {margin-bottom:10px;font-size:26px;}
+.single-contact .banner-row [class^="sg-contact"] {display: block;font-size:15px!important;text-align:left;}
+.single-contact .banner-row [class^="sg-contact"] em.comma {display: none;}
+.single-contact .cream-row {padding:80px 0px;background:#f2ede9!important;}
+.single-contact .socialmedia a {margin-right:20px;font-size:26px;}
 
 /* FOOTER */
 #site-footer {padding:60px 80px!important;color:#fff;background:#343953;}
