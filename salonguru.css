@@ -52,9 +52,11 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .modal-menu a:focus, .modal-menu a:hover, .modal-menu li.current-menu-item > .ancestor-wrapper > a, .modal-menu li.current_page_ancestor > .ancestor-wrapper > a {text-decoration: none; }
 
 /* HOME */
-.home .banner-row {min-height:570px;padding-left:10%;}
+.home .banner-row {min-height:570px;padding-left:20%;}
 .home .banner-row h1, .home .banner-row p {color:#4b4b4e;}
 .home .banner-row:after {content:'';position:absolute;bottom:0px;left:0px;height:10px;width:100%;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
+.home .banner-row h1 {font-weight:300;font-size:40px;}
+.home .banner-row h1 .fancy-text {font-family: 'Headstrong';font-weight:400;font-size:60px;}
 
 .home .seo-text {padding:6em;background:#4b4b4e;}
 .home .seo-text p, .home .seo-text a {color:#fff;}
@@ -84,6 +86,14 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .pout-button, .pout-button:visited {display:inline-block;margin:10px 10px 10px 0px;padding:10px 15px;font-size:14px;border:1px solid #edb4a9;background:transparent;color:#4b4b4e!important;text-decoration:none!important;}
 .pout-button:hover {background:#edb4a9;border:1px solid #edb4a9;color:#fff!important;text-decoration:none!important;}
 .pout-button:last-child {margin:0;}
+
+.pink-button, .pink-button:visited {display:inline-block;margin:10px 10px 10px 0px;padding:10px 15px;font-size:14px;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);color:#fff!important;text-decoration:none!important;}
+.pink-button:hover {background:#edb4a9;color:#fff!important;text-decoration:none!important;}
+.pink-button:last-child {margin:0;}
+
+.grey-button, .grey-button:visited {display:inline-block;margin:10px 10px 10px 0px;padding:10px 15px;font-size:14px;background:#4b4b4e;color:#fff!important;text-decoration:none!important;}
+.grey-button:hover {background:#edb4a9;color:#fff!important;text-decoration:none!important;}
+.grey-button:last-child {margin:0;}
 
 .button {padding:0.5em 1em;background:transparent;border:0.1em solid #f85c70;border-radius:8px;text-shadow:0 0 0;}
 .button:hover {opacity:0.7;}
