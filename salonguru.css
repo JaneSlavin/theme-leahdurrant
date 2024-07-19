@@ -65,6 +65,9 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .home .instagram-row h2 {font-family: 'OpenSans';font-size:36px;}
 .home .instagram-row h2 a {text-decoration:none;}
 
+.home .image-left .textwidget {padding-left:50px;}
+.home .image-right .textwidget {padding-right:50px;}
+
 .home .image-three {padding:6em;background:#4b4b4e;}
 .home .image-three p, .home .image-three a {color:#fff;}
 
