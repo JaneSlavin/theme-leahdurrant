@@ -58,18 +58,23 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 
 .home .seo-text {padding:6em;background:#4b4b4e;}
 .home .seo-text p, .home .seo-text a {color:#fff;}
+.home .seo-text h2 {font-family: 'Headstrong';font-size: 54px;}
 
 .home .reviews-row {background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 .home .reviews-row h2 {font-family: 'OpenSans';color:#fff;font-size:36px;}
 
 .home .instagram-row h2 {font-family: 'OpenSans';font-size:36px;}
-.home .instagram-row h2 a {text-decoration:none;}
+.home .instagram-row h2 a {text-decoration:none;color:#4b4b4e;}
 
 .home .image-left .textwidget {padding-left:50px;}
 .home .image-right .textwidget {padding-right:50px;}
+.home .image-right .textwidget h2, .home .image-left .textwidget h2 {font-family: 'Headstrong';}
 
 .home .image-three {padding:6em;background:#4b4b4e;}
 .home .image-three p, .home .image-three a {color:#fff;}
+.home .image-three h2 {font-family: 'Headstrong';color:#edb4a9;}
+.home .image-three .wout-button {border:1px solid #edb4a9;}
+.home .image-three .wout-button:hover {background:#edb4a9;}
 
 /* BUTTONS */
 .wout-button, .wout-button:visited {display:inline-block;margin:10px 10px 10px 0px;padding:10px 15px;font-size:14px;border:1px solid #fff;background:transparent;color:#fff!important;text-decoration:none!important;}
