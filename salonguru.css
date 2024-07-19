@@ -8,10 +8,10 @@
 
 /* GENERAL */
 body {  }
-body, button, input, select, textarea, .widget li, td, p, div.textwidget {font-family: 'OpenSans';font-size: 15px; line-height: 1.5; }
+body, button, input, select, textarea, .widget li, td, p, div.textwidget {font-family: 'OpenSans', sans-serif;font-size: 15px; line-height: 1.5; }
 main h1, main h2, main h3, main h4 { color:#edb4a9; }
-main p, main em, main table, main ul, main li  { color:#4b4b4e;font-family: 'OpenSans';font-weight:400; text-align: left;  }
-main h1 { text-align:center; margin-top: 3rem; letter-spacing: normal; font-size: 40px; font-weight: 700;  }
+main p, main em, main table, main ul, main li  { color:#4b4b4e;font-family: 'OpenSans', sans-serif;font-weight:400; text-align: left;  }
+main h1 { text-align:center; margin-top: 3rem; letter-spacing: normal;font-family: 'OpenSans', sans-serif; font-size: 40px; font-weight: 700;  }
 main h2 { text-align:left; font-size: 30px;font-family: 'Headstrong'; }
 main h3 { margin:20px 0 10px; font-size: 20px;font-family: 'Headstrong';}
 main a, main a:visited, main a:active { color: #e4b4b4e;}
