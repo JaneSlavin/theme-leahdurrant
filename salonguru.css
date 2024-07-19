@@ -63,9 +63,9 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .home .seo-text h2 {font-family: 'Headstrong';font-size: 54px;}
 
 .home .reviews-row {background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
-.home .reviews-row h2 {font-family: 'OpenSans';color:#fff;font-size:36px;}
+.home .reviews-row h2 {font-family: 'OpenSans';color:#fff;font-size:36px;font-weight:300;}
 
-.home .instagram-row h2 {font-family: 'OpenSans';font-size:36px;}
+.home .instagram-row h2 {font-family: 'OpenSans';font-size:36px;font-weight:300;}
 .home .instagram-row h2 a {text-decoration:none;color:#4b4b4e;}
 
 .home .image-left .textwidget {padding-left:50px;}
