@@ -1,13 +1,20 @@
 
+/* FONTS */
+@font-face { font-family: 'OpenSans'; font-weight: 300; font-style: normal; font-display: block; src: url("fonts/OpenSans-Light.ttf"); }
+@font-face { font-family: 'OpenSans'; font-weight: 400; font-style: normal; font-display: block; src: url("fonts/OpenSans-Regular.ttf"); }
+@font-face { font-family: 'OpenSans'; font-weight: 700; font-style: normal; font-display: block; src: url("fonts/OpenSans-Bold.ttf"); }
+@font-face { font-family: 'OpenSans'; font-weight: 400; font-style: italic; font-display: block; src: url("fonts/OpenSans-Italic.ttf"); }
+@font-face { font-family: 'Headstrong'; font-weight: 400; font-style: normal; font-display: block; src: url("fonts/Headstrong.ttf"); }
+
 /* GENERAL */
 body {  }
-body, button, input, select, textarea, .widget li, td, p, div.textwidget {font-size: 15px; line-height: 1.5; }
+body, button, input, select, textarea, .widget li, td, p, div.textwidget {font-family: 'OpenSans';font-size: 15px; line-height: 1.5; }
 main h1, main h2, main h3, main h4 { color:#edb4a9; }
-main p, main em, main table, main ul, main li  { color:#4b4b4e; font-weight:400; text-align: left;  }
+main p, main em, main table, main ul, main li  { color:#4b4b4e;font-family: 'OpenSans';font-weight:400; text-align: left;  }
 main h1 { text-align:center; margin-top: 3rem; letter-spacing: normal; font-size: 40px; font-weight: 700;  }
-main h2 { text-align:left; font-size: 30px; }
-main h3 { margin:20px 0 10px; font-size: 20px;}
-main a, main a:visited, main a:active { color: #edb4a9;}
+main h2 { text-align:left; font-size: 30px;font-family: 'Headstrong'; }
+main h3 { margin:20px 0 10px; font-size: 20px;font-family: 'Headstrong';}
+main a, main a:visited, main a:active { color: #e4b4b4e;}
 main a:hover {color:#edb4a9;}
 
 article { width:100%; max-width:1200px; margin:0 auto; }
@@ -38,7 +45,7 @@ body:not(.overlay-header) .primary-menu ul::before, body:not(.overlay-header) .p
 
 body:not(.overlay-header) .primary-menu > li > .icon { display: none; }
 body:not(.overlay-header) .primary-menu ul.sub-menu {z-index: 9999; width: 260px; background-color: #4b4b4e; box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.2)!important; border-radius:0px;}
-body:not(.overlay-header) .primary-menu ul.sub-menu a { color: #edb4a9; transition: all 0.25s;}
+body:not(.overlay-header) .primary-menu ul.sub-menu a { color: #edb4a9; transition: all 0.25s;text-align:left;}
 body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transition: all 0.25s; }
 .header-toggles:only-child .toggle-inner .toggle-text {padding-right: 8px; }
 
@@ -47,9 +54,12 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 /* HOME */
 .home .banner-row {min-height:570px;padding-left:10%;}
 .home .banner-row h1, .home .banner-row p {color:#4b4b4e;}
+.home .banner-row:after {content:'';position:absolute;bottom:0px;left:0px;height:10px;width:100%;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 
 .home .seo-text {padding:6em;background:#4b4b4e;}
 .home .seo-text p, .home .seo-text a {color:#fff;}
+
+.home .reviews-row {background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 
 .home .image-three {padding:6em;background:#4b4b4e;}
 .home .image-three p, .home .image-three a {color:#fff;}
@@ -103,6 +113,7 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .single-contact .socialmedia a {margin-right:20px;font-size:26px;}
 
 /* FOOTER */
+#site-footer:before {content:'';position:absolute;top:0px;left:0px;height:10px;width:100%;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 #site-footer {padding:40px 80px!important;color:#fff;background:#4b4b4e;}
 #site-footer .top-row {max-width:1200px;margin:0 auto;text-align:center;}
 #site-footer a, #site-footer p {color:#fff;font-size:14px;}
