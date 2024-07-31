@@ -184,6 +184,7 @@ main ul.ysre-pagination li {text-align:center;}
 .single-contact .banner-row [class^="sg-contact"] em.comma {display: none;}
 .single-contact .cream-row {padding:80px 0px;background:#f2ede9!important;}
 .single-contact .socialmedia a {margin-right:20px;font-size:26px;}
+.single-contact article h3 {font-weight:300;}
 
 /* FOOTER */
 #site-footer:before {content:'';position:absolute;top:0px;left:0px;height:10px;width:100%;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
