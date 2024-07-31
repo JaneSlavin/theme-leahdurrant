@@ -6,6 +6,9 @@
 @font-face { font-family: 'OpenSans'; font-weight: 400; font-style: italic; font-display: block; src: url("fonts/OpenSans-Italic.ttf"); }
 @font-face { font-family: 'Headstrong'; font-weight: 400; font-style: normal; font-display: block; src: url("fonts/Headstrong.ttf"); }
 
+.fa-phone:before {content: "\f095"; }
+.fa-envelope:before {content: "\f0e0"; }
+
 /* GENERAL */
 body {  }
 body, button, input, select, textarea, .widget li, td, p, div.textwidget {font-family: 'OpenSans', sans-serif;font-size: 15px; line-height: 1.5; }
