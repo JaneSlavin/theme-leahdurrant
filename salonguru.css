@@ -100,6 +100,10 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .button {padding:0.5em 1em;background:transparent;border:0.1em solid #f85c70;border-radius:8px;text-shadow:0 0 0;}
 .button:hover {opacity:0.7;}
 
+/* INTERNAL PAGES */
+.pink-row {padding:80px 0px;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
+.pink-row * {color:#fff;}
+
 /* PRICES */
 table.prices {width:100%;max-width:800px!important;margin:0px auto;border: 0px solid #807D7B; }
 table.prices td:nth-child(1), #prices th:nth-child(1) {text-align: left; }
