@@ -62,8 +62,12 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .home .seo-text p, .home .seo-text a {color:#fff;}
 .home .seo-text h2 {font-family: 'Headstrong';font-size: 54px;}
 
-.home .reviews-row {background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
+.home .reviews-row {padding:50px 0px;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 .home .reviews-row h2 {font-family: 'OpenSans';color:#fff;font-size:36px;font-weight:300;}
+.home .reviews-row .bx-wrapper {background:transparent;}
+.home .reviews-row .ysre-ui-stream-message_carousel, .home .ysre-reviewer-name_carousel {padding:10px 20px;color:#fff!important;font-weight:300!important;}
+.home .ysre-reviews-summary, .home .ysre-reviews-summary span {color:#fff!important;font-weight:300!important;}
+.home .reviews-row #yourSalonReviews .review_item_inner_carousel, .home .reviews-row #yourSalonReviews .review_item_carousel {background:none;}
 
 .home .instagram-row {padding:50px;}
 .home .instagram-row h2 {font-family: 'OpenSans';font-size:36px;font-weight:300;}
