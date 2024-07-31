@@ -121,6 +121,31 @@ table.prices th {padding-top:20px;border: 0px;border-bottom:1px solid rgba(179,1
 .single-staff .staff-img {max-width: 300px; margin-bottom: 2em; }
 .single-staff #yourSalonReviews {display: block; clear: both; }
 
+/* REVIEWS */
+.review_item {box-shadow: 0px 0px 0px rgba(0,0,0,0.2)!important;border:1px solid rgba(179,111,102,1);border-radius:0px;background:#fff;}
+
+main .ysre-reviews-summary {text-align:center;}
+#yourSalonReviewsForm #YS-reviews-header {position: absolute; top:0!important; left: 0!important; transform: unset!important; padding: 0em!important; background-color: transparent!important; box-shadow: 2px 2px 5px grey; border-radius: 0px!important;}
+#yourSalonReviewsForm #YS-reviews-header h2 {margin: 0; font-size:40px!important;}
+#yourSalonReviewsForm #YS-reviews-wrapper .h2-rate-your-visit {margin-top: 1em!important;margin-bottom:20px!important; font-size:20px;}
+#yourSalonReviewsForm.reviewsFormNarrow #YS-reviews-form {padding:0!important;}
+
+#yourSalonReviewsForm #YS-reviews-wrapper .h2-hi-stars, #YS-reviews-wrapper .h2-low-stars {margin-top: 20px!important; margin-bottom:20px!important;  font-size:20px;}
+#yourSalonReviewsForm #YS-reviews-wrapper .h2-hi-stars span, #YS-reviews-wrapper .h2-low-stars span { padding: 5px 11px; margin-right: 5px;  border-radius: 50%; }
+
+#yourSalonReviewsForm h2 span {padding:0!important;background:transparent!important;color:rgba(179,111,102,1)!important;}
+#yourSalonReviewsForm h2 {color:rgba(179,111,102,1)!important;}
+#yourSalonReviewsForm .ysre-button {font-family: 'Montserrat'; background:rgba(179,111,102,1)!important;color:#fff!important;border-radius:0!important;border:0px!important;text-shadow: 0 0px 0px rgb(0 0 0 / 30%)!important;}
+#yourSalonReviewsForm {margin-top:0px!important;padding:30px;box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px!important;border-radius:0!important;border:0px solid rgba(179,111,102,1)!important;background:#f2ede9!important;}
+.ysre-ui-stream-message {font-style:normal;}
+main ul.ysre-pagination li.ysre-active {color:#fff;border: 1px solid rgba(179,111,102,1);background-color: rgba(179,111,102,1);}
+main ul.ysre-pagination li {text-align:center;}
+
+#yourSalonReviewsForm input[type="text"], #yourSalonReviewsForm textarea {margin-bottom:10px;padding:4px;border-right:0px;border-left:0px;border-top:0px;}
+#yourSalonReviewsForm label {padding-top:10px!important;font-size:15px;}
+#yourSalonReviewsForm input::placeholder {color:#ccc;}
+#yourSalonReviewsForm textarea {background:#fff!important;}
+
 /* WOO COMMERCE */
 .woocommerce mark, .woocommerce ins {background: #fff; }
 .woocommerce ul.products li.product h3 {color: #000; font-size: 12px; }
