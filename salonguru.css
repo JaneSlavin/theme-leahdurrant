@@ -121,6 +121,8 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 
 .cream-row {padding:80px 0px;background:#f2ede9!important;}
 
+.white-row {padding:80px 0px;background:#fff!important;}
+
 /* PRICES */
 table.prices {width:100%;max-width:800px!important;margin:0px auto;border: 0px solid #807D7B; }
 table.prices td:nth-child(1), #prices th:nth-child(1) {text-align: left; }
