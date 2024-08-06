@@ -25,6 +25,7 @@ article { width:100%; max-width:1200px; margin:0 auto; }
 .widget li { margin: 0.3rem 0 0.3rem 20px;text-align: left; }
 
 /* HEADER */
+#site-header:after {content:'';position:absolute;bottom:0px;left:0px;height:10px;width:100%;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 #site-header {padding:1em;background-color: #4b4b4e;}
 #site-header .header-titles-wrapper {max-width:100%!important;}
 #site-header .header-inner {width:100%;margin:0 auto;padding:0;}
@@ -108,6 +109,11 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .button:hover {opacity:0.7;}
 
 /* INTERNAL PAGES */
+.internal-banner {padding:50px;background:#4b4b4e!important;}
+.internal-banner p, .internal-banner a:active, .internal-banner a, .internal-banner a:visited, .internal-banner b {color:#fff;}
+.internal-banner h1 {margin-top:0px;}
+.internal-banner h2 {font-size:34px;font-weight:300;}
+
 .pink-row {padding:80px 0px;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 .pink-row * {color:#fff;}
 
@@ -122,6 +128,8 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .cream-row {padding:80px 0px;background:#f2ede9!important;}
 
 .white-row {padding:80px 0px;background:#fff!important;}
+
+.page-template-template-no-sidebar-no-h1 br.clear {display:none;}
 
 /* PRICES */
 table.prices {width:100%;max-width:800px!important;margin:0px auto;border: 0px solid #807D7B; }
