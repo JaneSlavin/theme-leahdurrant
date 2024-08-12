@@ -136,6 +136,9 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .single-sg_jobs .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {width:100%!important;}
 .single-sg_jobs table td {margin:0px;padding:0px;}
 
+/* GALLERY */
+.ngg-gallery-thumbnail-box.ngg-4-columns {width: 100%;}
+
 /* PRICES */
 table.prices {width:100%;max-width:800px!important;margin:0px auto;border: 0px solid #807D7B; }
 table.prices td:nth-child(1), #prices th:nth-child(1) {text-align: left; }
