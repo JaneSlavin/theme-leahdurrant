@@ -60,11 +60,11 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 .home .banner-row h1, .home .banner-row p {color:#4b4b4e;}
 .home .banner-row:after {content:'';position:absolute;bottom:0px;left:0px;height:10px;width:100%;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 .home .banner-row h1 {font-weight:300;font-size:40px;}
-.home .banner-row h1 .fancy-text {font-family: 'Headstrong';font-weight:400;font-size:60px;}
+.home .banner-row h1 .fancy-text {font-weight:600;font-size:50px;}
 
 .home .seo-text {padding:6em;background:#4b4b4e;}
 .home .seo-text p, .home .seo-text a {color:#fff;}
-.home .seo-text h2 {font-family: 'Headstrong';font-size: 54px;}
+.home .seo-text h2 {margin:0px 0px 10px;font-size: 40px;font-weight:600;letter-spacing:-2px;}
 
 .home .reviews-row {padding:50px 0px;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 .home .reviews-row h2 {font-family: 'OpenSans';color:#fff;font-size:36px;font-weight:300;}
@@ -80,11 +80,11 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 
 .home .image-left .textwidget {padding-left:50px;}
 .home .image-right .textwidget {padding-right:50px;}
-.home .image-right .textwidget h2, .home .image-left .textwidget h2 {font-family: 'Headstrong';}
+.home .image-right .textwidget h2, .home .image-left .textwidget h2 {}
 
 .home .image-three {padding:6em;background:#4b4b4e;}
 .home .image-three p, .home .image-three a {color:#fff;}
-.home .image-three h2 {font-family: 'Headstrong';color:#edb4a9;}
+.home .image-three h2 {margin-bottom:10px;font-size:28px;color:#edb4a9;}
 .home .image-three .wout-button {border:1px solid #edb4a9;}
 .home .image-three .wout-button:hover {background:#edb4a9;}
 
