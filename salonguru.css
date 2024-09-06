@@ -64,7 +64,7 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 
 .home .seo-text {padding:6em;background:#4b4b4e;}
 .home .seo-text p, .home .seo-text a {color:#fff;}
-.home .seo-text h2 {margin:0px 0px 10px;font-size: 40px;font-weight:600;letter-spacing:-2px;}
+.home .seo-text h2 {margin:0px 0px 10px;font-size: 40px;font-weight:400;letter-spacing:-2px;}
 
 .home .reviews-row {padding:50px 0px;background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%);}
 .home .reviews-row h2 {font-family: 'OpenSans';color:#fff;font-size:36px;font-weight:300;}
