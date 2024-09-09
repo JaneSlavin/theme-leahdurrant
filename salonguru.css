@@ -243,19 +243,24 @@ main ul.ysre-pagination li {text-align:center;}
 }
 
 @media (max-width: 1000px) {
-	#site-header .header-inner .toggle {font-size: 30px; }
+	#site-header .header-inner .toggle {width:50px;height:50px;top:0px;right:0px;padding:0px;color:#fff;font-size: 30px; }
 }
 
 @media (max-width: 896px) {
 	#site-header .header-titles-wrapper {padding:0;}
 
-	.menu-modal-inner {width:100%!important;background:#fff;}
+	.menu-modal-inner {width:100%!important;background:#4b4b4e;}
 	.menu-modal-inner .expanded-menu li {width:100%!important;}
-	.menu-modal li a {color:#000;font-size:18px !important; padding: 1.5rem 2.5rem; text-transform:uppercase; font-weight:400!important;}
-	.menu-modal li .ancestor-wrapper a, .menu-modal button .svg-icon, span.toggle-text {color:#000!important;}
+	.menu-modal li a {color:#ff;font-size:18px !important; padding: 1.5rem 2.5rem; text-transform:uppercase; font-weight:400!important;}
+	.menu-modal li .ancestor-wrapper a, .menu-modal button .svg-icon, span.toggle-text {color:#fff!important;}
 	.menu-modal li {border-color:#000;}
 	
 	.home main .panel-grid-cell, .home main .panel-grid {margin-bottom: 0 ; }
+
+	.home h2 {font-size:28px!important;}
+	.home p {font-size:14px!important;}
+	.home .seo-text, .home .image-left, .home .image-right, .home .image-three, .home .instagram-row {padding:20px!important;}
+	.home .image-left .textwidget, .home .image-right .textwidget {padding:0px;}
 
 	 #site-footer {padding: 2em; text-align: center; }
 	 #site-footer div, #site-footer p {text-align: center; }
@@ -263,8 +268,9 @@ main ul.ysre-pagination li {text-align:center;}
 }
 
 @media  (max-width: 667px) {
-	.menu-modal li a {color:#000;font-size:18px;font-weight:400;}
-	.menu-modal li .ancestor-wrapper a {color:#000;}
+	#site-header {padding:10px 10px 30px;}
+	#site-header .column {text-align:left!Important;}
+	#site-header .logo {width:250px;text-align:left;}
 
 	#site-footer {clear: both;padding:10px;}
 }
