@@ -234,7 +234,6 @@ main ul.ysre-pagination li {text-align:center;}
 #site-footer .widget_footer_links a, #site-footer .widget_footer_links span, #site-footer a.sitemap {display:inline-block!important;margin-right:10px;font-size:12px!important;color:#fff;}
 
 
-
 /*** OPTIMISATIONS ***/
 @media (max-width: 1300px) {
 }
@@ -262,8 +261,13 @@ main ul.ysre-pagination li {text-align:center;}
 	.home .seo-text, .home .image-left, .home .image-right, .home .image-three, .home .instagram-row {padding:20px!important;}
 	.home .image-left .textwidget, .home .image-right .textwidget {padding:0px;}
 
+	.internal-banner, .cream-row, .white-row, .hair-transform, .cta-row {padding:30px!important;}
+	main h1 {font-size:30px!important;}
+	main h2 {margin:10px 0px;font-size:28px!important;}
+	main p {font-size:14px!important;}
+
 	 #site-footer {padding: 2em; text-align: center; }
-	 #site-footer div, #site-footer p {text-align: center; }
+	 #site-footer div, #site-footer p, #site-footer h3 {text-align: center; }
 	 #site-footer table {margin: 0 auto; }
 }
 
@@ -274,8 +278,6 @@ main ul.ysre-pagination li {text-align:center;}
 	
 	.home .banner-row {min-height:unset;padding:30px;}
 	.home .banner-row h1, .home .banner-row .fancy-text {font-size:28px!important;}
-
-	#site-footer {clear: both;padding:10px;}
 }
 
 
