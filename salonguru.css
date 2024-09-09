@@ -251,7 +251,7 @@ main ul.ysre-pagination li {text-align:center;}
 
 	.menu-modal-inner {width:100%!important;background:#4b4b4e;}
 	.menu-modal-inner .expanded-menu li {width:100%!important;}
-	.menu-modal li a {color:#ff;font-size:18px !important; padding: 1.5rem 2.5rem; text-transform:uppercase; font-weight:400!important;}
+	.menu-modal li a {color:#fff;font-size:18px !important; padding: 1.5rem 2.5rem; text-transform:uppercase; font-weight:400!important;}
 	.menu-modal li .ancestor-wrapper a, .menu-modal button .svg-icon, span.toggle-text {color:#fff!important;}
 	.menu-modal li {border-color:#000;}
 	
@@ -271,6 +271,9 @@ main ul.ysre-pagination li {text-align:center;}
 	#site-header {padding:10px 10px 30px;}
 	#site-header .column {text-align:left!Important;}
 	#site-header .logo {width:250px;text-align:left;}
+	
+	.home .banner-row {min-height:unset;padding:30px;}
+	.home .banner-row h1, .home .banner-row .fancy-text {font-size:28px!important;}
 
 	#site-footer {clear: both;padding:10px;}
 }
