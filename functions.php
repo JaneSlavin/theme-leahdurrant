@@ -28,7 +28,7 @@ function sg_sticky_mobile() {
   	</div>
   	<style>
   		.sticky {text-align: center; height: 51px; position: initial; }
-  		.sticky a {position: fixed;z-index: 999; width: 100%; margin: 0; background: #c10202; color: #fff;padding: 15px; display: block; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer;  }
+  		.sticky a {position: fixed;z-index: 999; width: 100%; margin: 0; background: rgb(237,180,169);background: linear-gradient(45deg, rgba(237,180,169,1) 0%, rgba(179,111,102,1) 100%); color: #4b4b4e;padding: 10px 15px; display: block; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer;  }
 		.sticky a:hover {opacity:0.8;}
 		@media (max-width: 480px) { .sticky a {font-size: 14px; vertical-align: top; } }
   	</style>';
