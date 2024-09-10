@@ -18,3 +18,19 @@ function sgv5_child_enqueue() {
 	wp_enqueue_script( 'sgv5-child-script', get_stylesheet_directory_uri().'/salonguru.js', array('jquery'), $published_file_version, true );
 }
 add_action( 'wp_enqueue_scripts', 'sgv5_child_enqueue', 80 ); //priority is important, parent is 75
+
+/* STICKY MOBILE BUTTONS */
+function sg_sticky_mobile() {
+    //if ( wp_is_mobile() ) echo '
+    echo '
+  	<div class="sticky">
+		<a href="'.get_permalink(245).'">New Client Offer - £20 OFF</a>
+  	</div>
+  	<style>
+  		.sticky {text-align: center; height: 51px; position: initial; }
+  		.sticky a {position: fixed;z-index: 999; width: 100%; margin: 0; background: #c10202; color: #fff;padding: 15px; display: block; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer;  }
+		.sticky a:hover {opacity:0.8;}
+		@media (max-width: 480px) { .sticky a {font-size: 14px; vertical-align: top; } }
+  	</style>';
+}
+add_action('wp_body_open', 'sg_sticky_mobile' );
