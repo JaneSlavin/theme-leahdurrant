@@ -141,6 +141,11 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 /* GALLERY */
 .ngg-gallery-thumbnail-box.ngg-4-columns {width: 100%!important;}
 
+/* JOBS FORM */
+.single-job-listing .wpforms-container {width:100%;max-width:600px!important;margin:0 auto 30px!important;padding:30px!important;background:#f1f1f1!important;}
+.single-job-listing .wpforms-container .wpforms-submit {background:rgba(179,111,102,1)!important;}
+.single-job-listing .wpforms-container .wpforms-submit:hover {background:#000!important;}
+
 /* PRICES */
 table.prices {width:100%;max-width:800px!important;margin:0px auto;border: 0px solid #807D7B; }
 table.prices td:nth-child(1), #prices th:nth-child(1) {text-align: left; }
