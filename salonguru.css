@@ -140,6 +140,7 @@ body:not(.overlay-header) .primary-menu ul.sub-menu a:hover {color: #fff; transi
 
 /* GALLERY */
 .ngg-gallery-thumbnail-box.ngg-4-columns {width: 100%!important;}
+article .ngg-galleryoverview {grid-gap: initial; }
 
 /* JOBS FORM */
 .single-job-listing .wpforms-container {width:100%;max-width:600px!important;margin:0 auto 30px!important;padding:30px!important;background:#f1f1f1!important;}
